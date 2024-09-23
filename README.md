@@ -15,6 +15,7 @@ Bu proje, kullanıcıların kitap girişi , yazar girişi ve login ,signup yapab
 ## Projeyi Çalıştırmak İçin Gerekenler
 1. **Gereksinimler**:
    - .NET Core SDK (en az 3.1 veya üstü)
+   - Ben static list kullandım.
    - Bir veritabanı yönetim sistemi (SQL Server, SQLite, vb. tercih edilebilir)
 
 2. **Projenin Kurulumu**:
