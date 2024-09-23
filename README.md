@@ -36,7 +36,8 @@ Bu proje, kullanıcıların kitap girişi , yazar girişi ve login ,signup yapab
 
 ## Kullanım
 **Login Olmadan Önce**:
-![Anasayfa](./signup öncesi.png)
+
+
 
 
 
