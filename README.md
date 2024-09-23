@@ -36,6 +36,11 @@ Bu proje, kullanıcıların kitap girişi , yazar girişi ve login ,signup yapab
 
 ## Kullanım
 **Login Olmadan Önce**:
+Login olmadan yapılan girişlerde kısıtlı işlemler yapabilirsiniz.
+
+![Anasayfa](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/beforesignup1.png)
+![Kitap Listesi](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/beforesignup2.png)
+![Yazar Listesi](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/beforesignup3.png)
 
 
 
