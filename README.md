@@ -35,6 +35,9 @@ Bu proje, kullanıcıların kitap girişi , yazar girişi ve login ,signup yapab
    - Tarayıcınızda `http://localhost:5000` adresine giderek uygulamanızı görüntüleyin.
 
 ## Kullanım
+**Login Olmadan Önce**:
+![Anasayfa](./signup öncesi.png)
+
 
 
 ## Katkıda Bulunanlar
