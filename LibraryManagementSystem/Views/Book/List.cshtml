@@ -1,0 +1,40 @@
+﻿@model List<BookListViewModel>
+
+<h3 class="text-center mt-5"> Kitap Listesi </h3>
+ @if (@User.Claims.FirstOrDefault(x=> x.Type=="userId")?.Value != null)
+            {
+<a asp-controller="Book" asp-action="Create" class="btn btn-success fm-bold mb-3 mt-3">Yeni Ekle</a>
+
+<hr />
+            }
+<table class="table table-bordered table-hover">
+    <thead>
+    <th style="width:10px">Id</th>
+    <th>Kitap Adı</th>
+    <th>Türü</th>
+    <th>Yayın Tarihi</th>
+    <th>Mevcut Kopya Sayısı</th>
+    <th style="width:200px">İşlemler</th>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.BookId</td>
+                <td>@book.Title</td>
+                <td>@book.Genre</td>
+                <td>@book.PublishDate</td>
+                <td>@book.CopiesAvailable</td>
+                <td>
+                    <a asp-controller="Book" asp-action="Details" asp-route-id="@book.BookId" class="btn btn-sm btn-secondary">Detaylar</a>
+                    @if (@User.Claims.FirstOrDefault(x => x.Type == "userId")?.Value != null)
+                    {
+                        <a asp-controller="Book" asp-action="Edit" asp-route-id="@book.BookId" class="btn btn-sm btn-warning">Düzenle</a>
+                        <a asp-controller="Book" asp-action="Delete" asp-route-id="@book.BookId" class="btn btn-sm btn-danger">Sil</a>
+                    }
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table> 

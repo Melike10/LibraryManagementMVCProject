@@ -1,0 +1,27 @@
+﻿@model AuthorDetailsViewModel
+
+<div class="row mt-5 m-lg-5 col d-flex justify-content-center">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">@Model.AuthorName</h5>
+        </div>
+        <h6>Kitapları :</h6>
+        @if (Model.Books != null && Model.Books.Any())
+        {
+            <ul class="list-group list-group-flush">
+                @foreach (var bookTitle in Model.Books)
+                {
+                    <li class="list-group-item">@bookTitle</li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p>Bu yazarın henüz kitabı yok.</p>
+        }
+        <div class="card-body">
+            <a asp-controller="Home" asp-action="Index" class="card-link">Anasayfa</a>
+        </div>
+    </div>
+</div>
+<hr />

@@ -1,0 +1,37 @@
+﻿@model List<AuthorListViewModel>
+
+<h3>Yazar Listesi</h3>
+ @if (@User.Claims.FirstOrDefault(x=> x.Type=="userId")?.Value != null)
+            {
+<a asp-controller="Author" asp-action="Create" class="btn btn-success fm-bold mb-3 mt-3">Yeni Ekle</a>
+            }
+<hr />
+
+<table class="table table-bordered table-hover">
+    <thead>
+    <th style="width:10px">Id</th>
+    <th> Adı</th>
+    <th>Soyadı</th>
+    <th style="width:200px">İşlemler</th>
+    </thead>
+    <tbody>
+        @foreach (var author in Model)
+        {
+            <tr>
+                <td>@author.AuthorId</td>
+                <td>@author.FirstName</td>
+                <td>@author.LastName</td>
+              
+                <td>
+                    <a asp-controller="Author" asp-action="Details" asp-route-id="@author.AuthorId" class="btn btn-sm btn-secondary">Detaylar</a>
+                    @if (@User.Claims.FirstOrDefault(x => x.Type == "userId")?.Value != null)
+                    {
+                        <a asp-controller="Author" asp-action="Edit" asp-route-id="@author.AuthorId" class="btn btn-sm btn-warning">Düzenle</a>
+                        <a asp-controller="Author" asp-action="Delete" asp-route-id="@author.AuthorId" class="btn btn-sm btn-danger">Sil</a>
+                    }
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table> 

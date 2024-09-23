@@ -1,0 +1,23 @@
+﻿
+@model Book
+
+<div class=" row mt-5 m-lg-5 col d-flex justify-content-center">
+    <div class="card" style="width: 35rem;">
+        <img src="@Model.ImageUrl" class="card-img-top" alt="@Model.Title" >
+    <div class="card-body">
+        <h5 class="card-title">@Model.Title</h5>
+        <p class="card-text">@Model.Summary</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Türü : @Model.Genre</li>
+        <li class="list-group-item">ISBN : @Model.ISBN</li>
+            <li class="list-group-item">Yayın Tarihi: @Model.PublishDate.ToString("dd/MM/yyyy")</li>
+        <li class="list-group-item">Uygun Kopya Sayısı : @Model.CopiesAvailable</li>
+    </ul>
+    <div class="card-body">
+        <a asp-controller ="Home" asp-action="Index" class="card-link">Anasayfa</a>
+        <a asp-controller="Author" asp-action="Details" asp-route-id=@Model.AuthorId class="card-link">Yazar Hakkında</a>
+    </div>
+</div>
+</div>
+<hr />

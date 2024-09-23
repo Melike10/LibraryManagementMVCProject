@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+<div class=" row mt-5 m-lg-5 col d-flex justify-content-center">
+    <div class="card m-lg-2" style="width: 18rem;" >
+        <a asp-action="List" asp-controller="Book">
+        <img src="~/images/kitaplar.jpg" class="card-img-top" alt="books" width="250" height="250" >
+           </a>
+        <div class="card-body">
+            <h5 class="card-title">Kitaplarımız</h5>
+            <p class="card-text">Kütüphanimize ait değerli kitaplar.</p>
+            @* <a href="#" class="btn btn-primary">Go somewhere</a> *@
+        </div>
+    </div>
+    
+    <div class="card m-lg-2" style="width: 18rem;">
+        <a asp-action="List" asp-controller="Author">
+            <img src="~/images/yazarlar.jpg" class="card-img-top" alt="authors" width="250" height="250">
+        </a>
+        <div class="card-body">
+            <h5 class="card-title">Yazarlar</h5>
+            <p class="card-text">Değerli kitaplarımızın değerli yazarları.</p>
+            @* <a href="#" class="btn btn-primary">Go somewhere</a> *@
+        </div>
+    </div>
+</div>
