@@ -49,9 +49,9 @@ Login olmadan yapılan girişlerde kısıtlı işlemler yapabilirsiniz.
 ![Kitap Giris](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/kitapgirisi.png)
 ![Kitap Güncelleme](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/editbook.png)
 ![Kitap Detay](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/detaylar.png)
-![Kitap Güncelleme](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/editbook.png)
-![Yazar Giriş](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/yazargiris.png)
+![Yazar Giriş](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/yazargirisi.png)
 ![Yazar Güncelleme](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/yazargüncelleme.png)
+![Yazar Detay](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/yazardetay.png)
 ![Hakkında](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/about.png)
 
 
