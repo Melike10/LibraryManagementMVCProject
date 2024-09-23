@@ -7,7 +7,6 @@ Bu proje, kullanıcıların kitap girişi , yazar girişi ve login ,signup yapab
 
 ## Kullanılan Teknolojiler
 - **ASP.NET Core**: Web uygulamasının geliştirilmesinde kullanıldı.
-- **Entity Framework Core**: Veri erişimi için kullanıldı.
 - **HTML/CSS**: Kullanıcı arayüzü tasarımı için kullanıldı.
 - **JavaScript**: Form etkileşimleri ve dinamik içerik için kullanıldı.
 - **Bootstrap**: Responsive tasarım için kullanıldı.
