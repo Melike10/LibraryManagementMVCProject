@@ -37,21 +37,38 @@ Bu proje, kullanıcıların kitap girişi , yazar girişi ve login ,signup yapab
 ## Kullanım
 **Login Olmadan Önce**:
 
-Login olmadan yapılan girişlerde kısıtlı işlemler yapabilirsiniz.
+Login olmadan yapılan girişlerde kısıtlı işlemler yapabilirsiniz.Bu işlemler listeleme ve listelenen kalemlerin detayalarını görmek gibi olur.
 
 ![Anasayfa](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/beforesignup1.png)
 ![Kitap Listesi](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/beforesignup2.png)
 ![Yazar Listesi](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/beforesignup3.png)
 
 **Login Sonrası**:
+Ana sayfa:
 ![Anasayfa](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/login1.png)
+
+Kitap Listeleme:
 ![Kitap Listesi](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/login2.png)
+
+Kitap girişi:
 ![Kitap Giris](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/kitapgirisi.png)
+
+Kitap Güncelleme:
 ![Kitap Güncelleme](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/editbook.png)
+
+Kitap Detayı Görüntüleme:
 ![Kitap Detay](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/detaylar.png)
+
+Yazar Girişi:
 ![Yazar Giriş](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/yazargirisi.png)
+
+Yazar Güncelleme:
 ![Yazar Güncelleme](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/yazargüncelleme.png)
+
+Yazar Detayı:
 ![Yazar Detay](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/yazardetay.png)
+
+Hakkında Sayfası:
 ![Hakkında](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/about.png)
 
 
