@@ -1,81 +1,77 @@
-
-
 # Library Management System
 
-## Proje Özeti
-Bu proje, kullanıcıların kitap girişi , yazar girişi ve login ,signup yapabileceği bir kütüphane yönetim sistemidir. Kullanıcılar, kitap bilgilerini girerek yeni kitaplar, yeni yazarlar ekleyebilir, güncelleyebilir  ve bu bilgileri görüntüleyebilir. Proje, kullanıcı dostu bir arayüze sahip olup, kitaplarla ilgili temel bilgileri (başlık, yazar, tür, yayın tarihi, özet, ISBN, kopya sayısı ve resim) ve yazar ile igili temel verileri (yazar adı, soyadı, doğum tarihi, kitapları ) yönetmektedir.
+## Project Summary
+This project is a library management system that allows users to enter books, add authors, and perform login and signup functions. Users can add, update, and view new books and authors by entering their details. The project features a user-friendly interface for managing essential book details (title, author, genre, publication date, summary, ISBN, copy count, and image) and author details (first name, last name, date of birth, and books).
 
-## Kullanılan Teknolojiler
-- **ASP.NET Core**: Web uygulamasının geliştirilmesinde kullanıldı.
-- **HTML/CSS**: Kullanıcı arayüzü tasarımı için kullanıldı.
-- **JavaScript**: Form etkileşimleri ve dinamik içerik için kullanıldı.
-- **Bootstrap**: Responsive tasarım için kullanıldı.
+## Technologies Used
+- **ASP.NET Core**: Used for developing the web application.
+- **HTML/CSS**: Used for designing the user interface.
+- **JavaScript**: Used for form interactions and dynamic content.
+- **Bootstrap**: Used for responsive design.
 
-## Projeyi Çalıştırmak İçin Gerekenler
-1. **Gereksinimler**:
-   - .NET Core SDK (en az 3.1 veya üstü)
-   - Ben static list kullandım.
-   - Bir veritabanı yönetim sistemi (SQL Server, SQLite, vb. tercih edilebilir)
+## Requirements to Run the Project
+1. **Prerequisites**:
+   - .NET Core SDK (minimum version 3.1 or higher)
+   - Static list is used instead of a database
+   - A database management system (SQL Server, SQLite, etc., if preferred)
 
-2. **Projenin Kurulumu**:
-   - Projeyi klonlayın veya ZIP dosyası olarak indirin.
-   - Terminal veya komut istemcisinde proje dizinine gidin.
-   - Gerekli paketleri yüklemek için şu komutu çalıştırın:
+2. **Project Setup**:
+   - Clone the project or download it as a ZIP file.
+   - Navigate to the project directory in your terminal or command prompt.
+   - Run the following command to install the necessary packages:
      ```bash
      dotnet restore
      ```
- ef database update
+
+3. **Database Update**:
+   - Run the following command to update the database (if using a database):
+     ```bash
+     dotnet ef database update
      ```
 
-4. **Uygulamayı Başlatma**:
-   - Uygulamayı başlatmak için şu komutu çalıştırın:
+4. **Start the Application**:
+   - Run the following command to start the application:
      ```bash
      dotnet run
      ```
-   - Tarayıcınızda `http://localhost:5000` adresine giderek uygulamanızı görüntüleyin.
+   - Open your browser and go to `http://localhost:5000` to view the application.
 
-## Kullanım
-**Login Olmadan Önce**:
+## Usage
+**Before Login**:
 
-Login olmadan yapılan girişlerde kısıtlı işlemler yapabilirsiniz.Bu işlemler listeleme ve listelenen kalemlerin detayalarını görmek gibi olur.
+Before logging in, users can only perform limited actions such as viewing the lists and details of books and authors.
 
-![Anasayfa](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/beforesignup1.png)
-![Kitap Listesi](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/beforesignup2.png)
-![Yazar Listesi](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/beforesignup3.png)
+![Home Page](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/beforesignup1.png)
+![Book List](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/beforesignup2.png)
+![Author List](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/beforesignup3.png)
 
-**Login Sonrası**:
-Ana sayfa:
-![Anasayfa](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/login1.png)
+**After Login**:
+Home Page:
+![Home Page](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/login1.png)
 
-Kitap Listeleme:
-![Kitap Listesi](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/login2.png)
+Book List:
+![Book List](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/login2.png)
 
-Kitap girişi:
-![Kitap Giris](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/kitapgirisi.png)
+Add Book:
+![Add Book](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/kitapgirisi.png)
 
-Kitap Güncelleme:
-![Kitap Güncelleme](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/editbook.png)
+Update Book:
+![Update Book](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/editbook.png)
 
-Kitap Detayı Görüntüleme:
-![Kitap Detay](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/detaylar.png)
+View Book Details:
+![Book Details](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/detaylar.png)
 
-Yazar Girişi:
-![Yazar Giriş](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/yazargirisi.png)
+Add Author:
+![Add Author](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/yazargirisi.png)
 
-Yazar Güncelleme:
-![Yazar Güncelleme](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/yazargüncelleme.png)
+Update Author:
+![Update Author](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/yazargüncelleme.png)
 
-Yazar Detayı:
-![Yazar Detay](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/yazardetay.png)
+View Author Details:
+![Author Details](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/yazardetay.png)
 
-Hakkında Sayfası:
-![Hakkında](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/about.png)
+About Page:
+![About](https://github.com/Melike10/LibraryManagementSystem/blob/0956d6774be6c4a10048423d964da66b756e9e72/about.png)
 
-
-
-
-
-
-## Katkıda Bulunanlar
+## Contributors
 - Melike
-
